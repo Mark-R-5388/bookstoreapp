@@ -4,7 +4,11 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <div className="content"></div>
+      <main>
+        <h1>Content goes here</h1>
+        <h2>Filling up space</h2>
+        <h3>Just figurign out the spacing needed</h3>
+      </main>
       <Footer />
     </div>
   );

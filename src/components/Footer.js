@@ -13,10 +13,12 @@ const Footer = () => {
     <footer>
       <div className="container footer_container">
         <div className="footer_container_left">
-          <p>2022</p>
-          <p>Book Store App</p>
+          <p className="footer_date">2022</p>
+          <div className="footer_container_logo_title">
+            <ImBooks className="footer_logo" />
+            <p className="footer_title">Book Store App</p>
+          </div>
           <small className="footer_small">- All you need is a good book</small>
-          <ImBooks className="footer_logo" />
         </div>
         <div className="footer_container_right">
           <div className="footer_social_links_container">
